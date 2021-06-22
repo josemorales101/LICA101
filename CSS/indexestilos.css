@@ -1,0 +1,399 @@
+@font-face
+{
+    font-family:cursive;
+    
+}
+header
+{
+    height: 300px;
+    width: 1366px;
+    background-image: url(../imagenes/imagen1.jpg);
+    margin-top: 10px;
+    background-size: 1366px 300px;
+}
+#div2
+{
+    height: 280px;
+    width: 280px;
+    background-image: url(../imagenes/imagen5.jpg);
+    margin-top: 20px;
+    border-radius: 1000px;
+    float: left;
+}
+nav
+{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 10px;
+    margin-left: 400px;
+}
+#div16
+{
+    height: 110px;
+    width: 380px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align:center end justify;
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+}
+#div8
+{
+    height: 280px;
+    width: 280px;
+    background-image: url(../imagenes/imagen6.jpg);
+    margin-top: -300px;
+    border-radius: 1000px;
+    margin-left: 1075px;
+}
+#aside1
+{
+    height: 460px;
+    width: 350px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 30px;
+    float: left;
+}
+#div9
+{
+    height: 110px;
+    width: 350px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-top: 40;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+}
+#div10
+{
+    height: 25px;
+    width: 350px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+}
+section
+{
+    height: 1840px;
+    width: 680px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 70px;
+    margin-left: 30px; 
+    float: left;
+}
+#div17
+{
+    height: 35px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#div11
+{
+   height: 220px;
+    width: 680px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    color:black;
+    font-family: cursive;
+}
+#div18
+{
+   height: 30px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: cursive; 
+}
+#div12
+{
+    height: 330px;
+    width: 680px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    color:black;
+    font-family: cursive;
+}
+#div19
+{
+    height: 70px;
+    width: 680px;
+    background-image: url(../imagenes/imagen7.jpg);
+}
+#div20
+{
+     height: 35px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#div13
+{
+    height: 400px;
+    width: 680px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: cursive;
+}
+#div24
+{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0);
+}
+#div25
+{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0); 
+}
+#div26
+{
+     height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0);
+}
+#div27
+{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0); 
+}
+#div28
+{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0); 
+}
+#div29
+{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0); 
+}
+
+#div23
+{
+   height: 35px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: cursive;  
+}
+#div14
+{
+    height: 300px;
+    width: 680px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;  
+}
+#div30
+{
+     height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0);  
+}
+#div31
+{
+   height: 35px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: cursive;   
+}
+#div15
+{
+    height: 300px;
+    width: 680px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 10px;
+     text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
+#div32
+{
+   height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0);  
+}
+#div33
+{
+    height: 10px;
+    width: 10px;
+    background-color: rgba(245, 245, 245,.0); 
+}
+#div34
+{
+    height: 80px;
+    width: 680px;
+    background-image: url(../imagenes/imagen26.jpg); 
+    margin-top: 10px;
+}
+#aside2
+{
+    height: 150px;
+    width: 280px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+    margin-left: 1080px;
+    
+}
+
+#div1
+{
+     height: 60px;
+    width: 900px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 250px;
+    float:left;
+    margin-top: 10px;
+    font-size: 50px;
+    color: blanchedalmond;
+    font-family: cursive;
+}
+
+#div3
+{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(210, 105, 30,0.5);
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+}
+#div4
+{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(255, 127, 80,0.5);
+    margin-top: 10px;
+    margin-left: 50px;
+     text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+}
+#div5
+{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(100, 149, 237,0.5);
+    margin-top: 10px;
+    margin-left: 50px;
+     text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+}
+#div6
+{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(220, 20, 60,0.5);
+    margin-top: 10px;
+    margin-left: 50px;
+     text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+}
+#div7
+{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0, 255, 255,0.5);
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 18px;
+    color: black;
+    font-family: cursive;
+}
+
+footer
+{
+    height: 500px;
+    width: 1356px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 1800px;
+}
+#div36
+{
+    height: 1500px;
+    width: 1150px;
+    background-image: url(../cartel/imagencartel.jpg);
+}
+#div35
+{
+    height: 450px;
+    width: 600px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 40px;
+    margin-left: 70px;
+}
+#div48
+{
+  height: 35px;
+    width: 400px;
+    background-color: rgba(245, 245, 245,.0);
+    text-align: center;
+    margin-left: 400px;
+    padding-left: 120px;
+    font-size: 20px;
+    font-family: cursive;   
+}
+#div38
+{
+     height: 380px;
+    width: 600px;
+    background-color: rgba(245, 245, 245,.0);
+    margin-top: 40px;
+    margin-left: 400px;
+    text-align: center, justify;
+    font-size: 15px;
+    color: black;
+    font-family: cursive;
+}

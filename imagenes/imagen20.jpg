@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="es"
+      dir="ltr"  prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, target-densitydpi=device-dpi, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="https://www.google.com/recaptcha/api.js?hl=es" async="async" defer="defer"></script>
+<link rel="shortcut icon" href="https://www.osi.es/sites/all/themes/osi_d7/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="¿Qué es la criptografía? La criptografía es una técnica bastante antigua que busca cifrar un texto o una información, para que solo el emisor y el receptor puedan descifrarlos. Dentro de la informática, la criptografía se basa en complejos algoritmos matemáticos que se encargan de cifrar los mensajes. Además, existen cuatro requisitos u objetivos básicos que la criptología" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.osi.es/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" />
+<link rel="shortlink" href="https://www.osi.es/es/node/6715" />
+<meta property="fb:admins" content="osi.seguridad.internauta" />
+<meta property="fb:app_id" content="158625981283" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@osiseguridad" />
+<meta name="twitter:url" content="https://www.osi.es/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" />
+<meta name="twitter:title" content="¿Sabías que existen distintos tipos de cifrado para proteger la" />
+<meta name="twitter:description" content="¿Qué es la criptografía? La criptografía es una técnica bastante antigua que busca cifrar un texto o una información, para que solo el emisor y el receptor puedan descifrarlos. Dentro de la" />
+<meta name="twitter:image" content="https://www.osi.es/sites/default/files/images/blog/c9-img-blog-dec-sabias-que.jpg" />
+  <title>¿Sabías que existen distintos tipos de cifrado para proteger la privacidad de nuestra información en Internet? | Oficina de Seguridad del Internauta</title>
+  <link type="text/css" rel="stylesheet" href="https://www.osi.es/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.osi.es/sites/default/files/css/css_dxCCihgUoRu7S0kxnsYSsSBAkvKtQPM1_lzJxNPCEVE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.osi.es/sites/default/files/css/css_EZnA9wd3WIn-Xwb3E-GuBXIIB5lSzepjIPvXKS-KtQM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.osi.es/sites/default/files/css/css_IBwW75kooYSkRKAOk-684203jfgkQxubmPJo3_uU6v8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.osi.es/sites/default/files/css/css_N6LQ835XEDwlobezAf0BnuUMbSAZ-997V5vbyiq25ac.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="https://www.osi.es/sites/default/files/js/js_u9OepQzrrEOHEGWAPerUE6rwsqzO0JtU-p2KahRYgmU.js"></script>
+<script>jQuery.migrateMute=true;jQuery.migrateTrace=false;</script>
+<script src="https://www.osi.es/sites/default/files/js/js_F92vE0IkFNU8seVWI1OvFoEVZCDPItBz-jlIoTyFJBE.js"></script>
+<script src="https://www.osi.es/sites/default/files/js/js_cDVxxU29VhAgZ_ofwhutwIGoHDRjm14Yb7YiLcUwsu8.js"></script>
+<script src="https://www.osi.es/sites/default/files/js/js_QyrlkFD9g-tdBfTQ1iwrspClAqopLZylcVoGJoXACtE.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');</script>
+<script src="https://www.osi.es/sites/default/files/js/js_h3r50ix4QCO5b8--_j0XxhuMLSu0IlTaB640gBb7k24.js"></script>
+<script src="https://www.osi.es/sites/default/files/js/js_uJ2zRvunhRw5VLsRiXDbfdupAcPIp-ygml6Qosl160A.js"></script>
+<script src="https://www.osi.es/sites/default/files/js_injector/js_injector_2.js?qv1map"></script>
+<script src="https://www.osi.es/sites/default/files/js/js_B_SKuBa8-NL_BOCJz_av2RHC0peP5Pp1H9llHtS_G4k.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"es\/","ajaxPageState":{"theme":"osi_d7","theme_token":"PxXqSmYa694Ogh-LAy2GZtxFUUky5YLaYzBdpy4lPjE","js":{"sites\/all\/themes\/contrib\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/custom\/jquery_update\/replace\/jquery\/3.4\/jquery.min.js":1,"0":1,"sites\/all\/modules\/custom\/jquery_update\/replace\/jquery-migrate\/3\/jquery-migrate.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_dollar\/jquery_dollar.js":1,"sites\/all\/modules\/contrib\/apachesolr_sort\/apachesolr_sort.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"public:\/\/languages\/es_vQ-M3xSFi5z2Tp_QAO0os5va1lqLNBpi-Cg262MQ4i0.js":1,"sites\/all\/modules\/contrib\/captcha\/captcha.js":1,"1":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/contrib\/mmenu\/js\/mmenu.js":1,"sites\/all\/libraries\/mmenu\/hammer\/hammer.js":1,"sites\/all\/libraries\/mmenu\/jquery.hammer\/jquery.hammer.js":1,"sites\/all\/libraries\/mmenu\/main\/src\/js\/jquery.mmenu.min.all.js":1,"sites\/all\/themes\/osi_d7\/lib\/underscore\/underscore-min.js":1,"sites\/all\/themes\/osi_d7\/lib\/browser-selector\/browser-selector-min.js":1,"sites\/all\/themes\/osi_d7\/lib\/noopener\/noopener.js":1,"sites\/all\/themes\/osi_d7\/assets\/bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/themes\/osi_d7\/js\/osi_d7.base.js":1,"sites\/all\/themes\/osi_d7\/js\/ui\/osi_d7.ui.base.js":1,"sites\/all\/themes\/osi_d7\/js\/ui\/osi_d7.ui.layout.js":1,"sites\/all\/themes\/osi_d7\/js\/ui\/osi_d7.ui.components.js":1,"sites\/all\/themes\/osi_d7\/js\/blocks\/osi_d7.block.main_menu.js":1,"sites\/all\/themes\/osi_d7\/js\/blocks\/osi_d7.block.top_search.js":1,"sites\/all\/themes\/osi_d7\/js\/pages\/osi_d7.ui.page.viewLists.js":1,"sites\/all\/themes\/osi_d7\/js\/pages\/osi_d7.ui.page.herramientasGratuitas.js":1,"sites\/all\/themes\/osi_d7\/js\/osi_d7.main.js":1,"sites\/all\/themes\/osi_d7\/js\/osi_d7.custom.js":1,"sites\/all\/themes\/osi_d7\/js\/start-osi.js":1,"sites\/default\/files\/js_injector\/js_injector_2.js":1,"sites\/all\/modules\/custom\/incibe_cookies\/js\/jquery.cookiebar.js":1,"sites\/all\/modules\/custom\/incibe_cookies\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/simplenews\/simplenews.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/custom\/incibe_cookies\/css\/incibe_cookies.css":1,"sites\/all\/modules\/custom\/incibe_events_webform\/css\/incibe_events_webform.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/quiz\/quiz.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/mmenu\/main\/src\/css\/jquery.mmenu.all.css":1,"sites\/all\/libraries\/mmenu\/icomoon\/icomoon.css":1,"sites\/all\/themes\/osi_d7\/assets\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/osi_d7\/css\/common\/bootstrap-xtras.css":1,"sites\/all\/themes\/osi_d7\/css\/common\/common-tools.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-bootstrap.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-fonts.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-components.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-forms.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-pages.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-blocks.css":1,"sites\/all\/themes\/osi_d7\/css\/osi_d7-contents.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_3.css":1}},"better_exposed_filters":{"views":{"blog":{"displays":{"block_4":{"filters":[]}}}}},"mmenu":{"mmenu_left":{"enabled":"1","title":"Left menu","name":"mmenu_left","blocks":[{"module_delta":"system|main-menu","menu_parameters":{"min_depth":"1"},"title":"\u003Cnone\u003E","collapsed":"0","wrap":"0","module":"system","delta":"main-menu"},{"module_delta":"menu|menu-menu-sup-opciones","menu_parameters":{"min_depth":"1"},"title":"\u003Cnone\u003E","collapsed":"0","wrap":"0","module":"menu","delta":"menu-menu-sup-opciones"}],"options":{"classes":"mm-osi_d7","effects":[],"slidingSubmenus":true,"clickOpen":{"open":true,"selector":"#toggle-mmenu"},"counters":{"add":false,"update":false},"dragOpen":{"open":false,"pageNode":"body","threshold":0,"maxStartPos":0},"footer":{"add":false,"content":"","title":"Copyright \u00a92016","update":true},"header":{"add":false,"content":"","title":"Incibe - OSI","update":true},"labels":{"collapse":false},"offCanvas":{"enabled":true,"modal":false,"moveBackground":true,"position":"left","zposition":"next"},"searchfield":{"add":false,"addTo":"menu","search":false,"placeholder":"Buscar","noResults":"No results found.","showLinksOnly":true}},"configurations":{"clone":false,"preventTabbing":true,"panelNodetype":"div, ul, ol","transitionDuration":300,"classNames":{"label":"Label","panel":"Panel","selected":"Selected","buttonbars":{"buttonbar":"anchors"},"counters":{"counter":"Counter"},"fixedElements":{"fixedTop":"FixedTop","fixedBottom":"FixedBottom"},"footer":{"panelFooter":"Footer"},"header":{"panelHeader":"Header","panelNext":"Next","panelPrev":"Prev"},"labels":{"collapsed":"Collapsed"},"toggles":{"toggle":"Toggle","check":"Check"}},"dragOpen":{"width":{"perc":0.8,"min":140,"max":300},"height":{"perc":0.8,"min":140,"max":880}},"offCanvas":{"menuInjectMethod":"prepend","menuWrapperSelector":"#main-wrapper","pageNodetype":"div","pageSelector":"#mm-page"}},"custom":[],"position":"left"}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"incibe_cookies":{"ga_active":1,"ga_key":"UA-17786431-4","warning_active":1,"warning_text":"\u003Cp\u003EEste sitio web utiliza cookies propias y de terceros para el correcto funcionamiento y visualizaci\u00f3n del sitio web por parte del usuario, as\u00ed como la recogida de estad\u00edsticas tal y como se recoge en la pol\u00edtica de cookies en la columna \u0022finalidad\u0022. \u003Cstrong\u003ESi contin\u00faa navegando, consideramos que acepta su uso\u003C\/strong\u003E. Puede cambiar la configuraci\u00f3n u obtener m\u00e1s informaci\u00f3n.\u003C\/p\u003E\r\n","warning_accept_text":"Aceptar Cookies","warning_policy_show":1,"warning_policy_text":"Pol\u00edtica de cookies","warning_policy_url":"https:\/\/www.incibe.es\/politica-cookies","warning_modification_show":1,"warning_modification_text":"Modificar su configuraci\u00f3n","warning_modification_url":"https:\/\/www.incibe.es\/politica-cookies#cookieconfig"},"urlIsAjaxTrusted":{"\/es\/actualidad\/blog\/2019\/07\/10\/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad":true,"\/es\/comment\/reply\/6715":true},"field_group":{"div":"full"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto top","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-6715 node-type-blog actualidad blog 2019 07 10 sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" >
+<div id="skip-link">
+  <a href="#page-main-content" class="element-invisible element-focusable">
+    Ir al contenido principal  </a>
+</div>
+
+<div id="main-wrapper" class="mm-container">
+
+  <div id="mm-page">
+
+    <!-- << DESPLEGABLE >> -->
+              <div class="region region-desplegable">
+    <section id="block-block-9" class="block block-block tpl-acceso clearfix">
+
+      
+  <div class="acceso-box">
+<div class="container">
+<h2 class="title" style="color:white">Accesos corporativos</h2>
+ 
+<div class="container-fluid">
+<div class="col-lg-1-7 col-sm-3 col-xs-6 acceso-width"><a class="acceso-logo" href="https://www.incibe.es/" target="_blank" title="Instituto Nacional de Ciberseguridad de España S.A."><img alt="INCIBE" class="svg" src="/sites/all/themes/osi_d7/images/logo/incibe-blanco.svg" /></a></div>
+ 
+<div class="col-lg-1-7 col-sm-3 col-xs-6 acceso-width"><a class="acceso-logo" href="https://www.incibe-cert.es" target="_blank" title="INCIBE-CERT"><img alt="INCIBE-CERT" class="svg" src="/sites/default/files/images/incibe-cert-blanco.svg" /></a></div>
+ 
+<div class="col-lg-1-7 col-sm-3 col-xs-6 acceso-width"><a class="acceso-logo" href="https://www.osi.es/es" target="_blank" title="Oficina de Seguridad del Internauta"><img alt="OSI" class="svg" src="/sites/all/themes/osi_d7/images/logo/osi-blanco.svg" /></a></div>
+ 
+<div class="col-lg-1-7 col-sm-3 col-xs-6 acceso-width"><a class="acceso-logo" href="https://cybercamp.es" target="_blank" title="CyberCamp"><img alt="CyberCamp" class="svg" src="/sites/all/themes/osi_d7/images/logo/cybercamp-blanco.svg" /></a></div>
+ 
+<div class="col-lg-1-7 col-sm-3 col-xs-6 acceso-width"><a class="acceso-logo" href="https://www.is4k.es/" target="_blank" title="Internet Segura for Kids"><img alt="is4k" class="svg" src="/sites/default/files/images/logois4kfaldones.svg" /></a></div>
+ 
+<div class="clearfix"><!-- vacio --></div>
+</div>
+</div>
+</div>
+ 
+<div><a class="acceso-link" href="#" title="Portales INCIBE"><span>Portales INCIBE</span></a></div>
+</section>
+  </div>
+    
+
+    <!-- << MAIN HEADER >> -->
+    <header id="navbar" role="banner" class="navbar">
+      <div id="header-top" class="container">
+        <div id="toggle-mmenu" class="glyphicon glyphicon-menu-hamburger"
+             aria-hidden="true"></div>
+        <div class="navbar-header">
+                      <a class="logo navbar-btn pull-left"
+               href="/es" data-toggle="tooltip"
+               title="Inicio"> <img
+                src="https://www.osi.es/sites/all/themes/osi_d7/logo.png"
+                alt="Inicio"/>
+            </a>
+          
+                  </div>
+
+        <!-- REGION: Header Top -->
+          <div class="region region-header-top">
+    <section id="block-menu-menu-menu-sup-opciones" class="block block-menu block-top-nav-menu hidden-xs hidden-sm clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/es/quienes-somos" title="">¿Quiénes somos?</a></li>
+<li class="leaf"><a href="/es/encuesta-de-valoracion" title="">Encuesta de valoración</a></li>
+<li class="leaf"><a href="/es/contacto" title="">Contacto</a></li>
+<li class="last leaf"><a href="/es/newsletter" title="">Boletines</a></li>
+</ul>
+</section>
+<section id="block-block-6" class="block block-block block-att-phone clearfix">
+
+      
+  <img alt="Atención telefónica" height="65" src="/sites/default/files/teayudamos/atencion-telefonica-osi.png" width="231" />
+</section>
+  </div>
+      </div>
+
+
+              <!-- REGION: Header Bottom -->
+        <div id="header-bottom"
+             class="clearfix container hidden-xs hidden-sm">
+            <div class="region region-header-bottom">
+    <section id="block-system-main-menu" class="block block-system block-main-menu block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first expanded active-trail active dropdown"><span title="" class="active-trail dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Ponte al día <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="/es/actualidad/avisos" title="">Avisos de seguridad</a></li>
+<li class="leaf active-trail active"><a href="/es/actualidad/blog" title="" class="active active-trail">Blog</a></li>
+<li class="last leaf"><a href="/es/actualidad/historias-reales" title="">Historias Reales</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/es/campanas" title="" class="dropdown-toggle" data-toggle="dropdown">Campañas <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/es/cuidatuprivacidad" title="">Cuida tu privacidad</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/quedate-en-casa-pero-ciberseguro" title="">Quédate en casa pero ciberseguro</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/campanas/los-ciberdelincuentes-quienes-son" title="">Los ciberdelincuentes, ¿quiénes son?</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/campanas/iot-los-riesgos-de-un-mundo-hiperconectado" title="">IoT, los riesgos de un mundo hiperconectado</a></li>
+<li class="leaf"><a href="/es/campanas/contrasenas-seguras" title="">¡Contraseñas seguras!</a></li>
+<li class="leaf"><a href="/es/campanas/redes-sociales" title="">Redes sociales, ¿cuánto saben de ti?</a></li>
+<li class="leaf"><a href="/es/campanas/dispositivos-moviles" title="">Dispositivos móviles</a></li>
+<li class="leaf"><a href="/es/campanas/dispositivos-personales-trabajo" title="">Dispositivos personales y trabajo</a></li>
+<li class="leaf"><a href="/es/campanas/compras-seguras-online" title="">Compras seguras online</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/campanas/alquileres-vacacionales" title="">Alquileres vacacionales</a></li>
+<li class="leaf"><a href="/es/campanas/copias-cifrado-informacion" title="¿Es seguro dónde guardas y cómo envías la información?">¿Es seguro dónde guardas y cómo...</a></li>
+<li class="leaf"><a href="/es/campanas/criptomonedas" title="Las 2 caras de las criptomonedas">Las 2 caras de las criptomonedas</a></li>
+<li class="leaf"><a href="/es/campanas/puesta-punto" title="">Puesta a punto para el nuevo curso</a></li>
+<li class="leaf"><a href="/es/campanas/segunda-vida-dispositivos" title="">La segunda vida de nuestros dispositivos</a></li>
+<li class="leaf"><a href="/es/campanas/navegadores-seguros" title="">Navegadores web</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/campanas/ingenieria-social" title=""> Ingeniería social: que no te engañen</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/cuanto-valen-mis-datos-en-la-red" title="">¿Cuánto valen mis datos en la Red?</a></li>
+<li class="last leaf"><a href="https://www.osi.es/es/campanas/bulos-fake-news-fraudes" title="">Identifica bulos y fraudes</a></li>
+</ul></li>
+<li class="expanded dropdown"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Protégete <span class="caret"></span></span><ul class="dropdown-menu"><li class="first expanded dropdown-submenu"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Configura tus dispositivos</span><ul class="dropdown-menu"><li class="first leaf"><a href="/es/contra-virus" title="">Infórmate sobre los virus</a></li>
+<li class="leaf"><a href="/es/actualizaciones-de-seguridad" title="">Conoce la importancia de las actualizaciones</a></li>
+<li class="leaf"><a href="/es/cuentas-de-usuario" title="">Haz uso de cuentas de usuario</a></li>
+<li class="last leaf"><a href="/es/smartphone-y-tablet" title="">Recomendaciones para smartphones y tablets</a></li>
+</ul></li>
+<li class="expanded dropdown-submenu"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Establece conexiones seguras</span><ul class="dropdown-menu"><li class="first leaf"><a href="/es/protege-tu-wifi" title="">Protege tu red wifi</a></li>
+<li class="last leaf"><a href="/es/wifi-publica" title="">Sé cauto con wifis públicas</a></li>
+</ul></li>
+<li class="expanded dropdown-submenu"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Salvaguarda la información</span><ul class="dropdown-menu"><li class="first leaf"><a href="/es/tu-informacion-personal" title="">Cuida tu privacidad</a></li>
+<li class="leaf"><a href="/es/copias-de-seguridad-cifrado" title="">Realiza copias de seguridad y cifra tus datos</a></li>
+<li class="last leaf"><a href="/es/contrasenas" title="">Gestiona tus contraseñas</a></li>
+</ul></li>
+<li class="expanded dropdown-submenu"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Sé precavido con tu actividad online</span><ul class="dropdown-menu"><li class="first leaf"><a href="/es/navegadores" title="">Navegadores web</a></li>
+<li class="leaf"><a href="/es/pagos-online" title="">Compras online</a></li>
+<li class="leaf"><a href="/es/servicios-compraventa-y-subastas-online" title="">Servicios compraventa y subastas</a></li>
+<li class="leaf"><a href="/es/redes-sociales" title="">Redes sociales</a></li>
+<li class="leaf"><a href="/es/mensajeria-instantanea" title="">Mensajería instantánea</a></li>
+<li class="leaf"><a href="/es/correo-electronico" title="">Correo electrónico</a></li>
+<li class="leaf"><a href="/es/juegos-online" title="">Juegos online</a></li>
+<li class="leaf"><a href="/es/tu-informacion-en-la-nube" title="">Servicios en la nube</a></li>
+<li class="leaf"><a href="https://www.is4k.es/" title="">Protección de menores</a></li>
+<li class="leaf"><a href="/es/webs-de-descarga" title="">Webs descarga y compartición</a></li>
+<li class="last leaf"><a href="/es/casinos-y-apuestas" title="">Servicios de apuestas</a></li>
+</ul></li>
+<li class="last expanded dropdown-submenu"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Conoce los fraudes más comunes</span><ul class="dropdown-menu"><li class="first leaf"><a href="/es/banca-electronica" title="">Phishing</a></li>
+<li class="leaf"><a href="/es/tiendas-online-fraudulentas" title="">Tiendas online fraudulentas</a></li>
+<li class="leaf"><a href="/es/estafas-alquileres" title="">Estafas en alquileres de viviendas</a></li>
+<li class="leaf"><a href="/es/falsas-ofertas-empleo" title="">Falsas ofertas de empleo</a></li>
+<li class="last leaf"><a href="/es/fraude-online" title="fraude-online">Fraude online</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded dropdown"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Recursos <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.osi.es/es/talleres-ciberseguridad" title="">Talleres</a></li>
+<li class="expanded dropdown-submenu"><a href="https://www.osi.es/es/guias-ciberseguridad" title="" class="dropdown-toggle" data-toggle="dropdown">Guías</a><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.osi.es/es/guia-configuracion-router" title="">Guía para configurar el router wifi</a></li>
+<li class="leaf"><a href="https://www.osi.es/es/guia-ciberataques" title="">Guía de ciberataques</a></li>
+<li class="leaf"><a href="/es/guia-para-configurar-dispositivos-moviles" title="">Guía para configurar dispositivos móviles</a></li>
+<li class="leaf"><a href="/es/guia-fraudes-online" title="">Guía para aprender a identificar fraudes online</a></li>
+<li class="leaf"><a href="/es/guia-de-privacidad-y-seguridad-en-internet" title="">Guía de privacidad y seguridad en Internet</a></li>
+<li class="last leaf"><a href="/es/actualidad/blog/2017/12/19/te-interesa-estrenamos-guia-sobre-compra-segura-en-internet" title="">Guía de compra segura en Internet</a></li>
+</ul></li>
+<li class="leaf"><a href="/es/herramientas" title="">Herramientas gratuitas</a></li>
+<li class="leaf"><a href="/es/servicio-antibotnet" title="">Servicio AntiBotnet</a></li>
+<li class="leaf"><a href="/es/conan-mobile" title="">CONAN mobile</a></li>
+<li class="last expanded dropdown-submenu"><a href="/es/cuanto-sabes" title="" class="dropdown-toggle" data-toggle="dropdown">Tests de ciberseguridad</a><ul class="dropdown-menu"><li class="first leaf"><a href="/es/test-evaluacion/conocimientos-generales" title="">Conocimientos generales sobre ciberseguridad</a></li>
+<li class="leaf"><a href="/es/test-evaluacion/mitos-sobre-seguridad-en-internet-verdaderos-o-falsos" title="">¿Verdadero o falso?</a></li>
+<li class="leaf"><a href="/es/test-evaluacion/que-sabes-sobre-las-redes-wifi" title="">Wifi examínate</a></li>
+<li class="leaf"><a href="/es/test-evaluacion/cuanto-sabes-sobre-compras-seguras-online">¿Cuánto sabes sobre compras seguras online?</a></li>
+<li class="last leaf"><a href="/es/test-evaluacion/refresca-tus-conocimientos-en-ciberseguridad" title="">¡Refresca tus conocimientos en ciberseguridad! </a></li>
+</ul></li>
+</ul></li>
+<li class="expanded dropdown"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Juegos educativos <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.osi.es/es/juegos-mesa" title="">Juegos de mesa</a></li>
+<li class="leaf"><a href="https://www.is4k.es/de-utilidad/cyberscouts" title="">Cyberscouts</a></li>
+<li class="last leaf"><a href="https://www.osi.es/es/hackers" title="">Hackers vs Cybercrook</a></li>
+</ul></li>
+<li class="expanded dropdown"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Iniciativas <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.osi.es/es/cibercooperantes" title="">Cibercooperantes</a></li>
+<li class="leaf"><a href="/es/stand" title="">Stand Tu Espacio de Ciberseguridad</a></li>
+<li class="last leaf"><a href="https://www.is4k.es?origen=menu_osi" title="IS4K">Internet Segura for Kids</a></li>
+</ul></li>
+<li class="last expanded dropdown"><span title="" class="dropdown-toggle nolink" data-toggle="dropdown" tabindex="0">Ayuda <span class="caret"></span></span><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.incibe.es/linea-de-ayuda-en-ciberseguridad" title="">Ayuda en ciberseguridad</a></li>
+<li class="leaf"><a href="/es/desinfecta-tu-ordenador" title="">Desinfección de dispositivos</a></li>
+<li class="last leaf"><a href="/es/reporte-de-fraude" title="">Reporte de fraude</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="form-search content-search" action="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Formulario de búsqueda</h2>
+    <div class="input-group"><input title="Escriba lo que quiere buscar." placeholder="Buscar" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions--2"><button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit--2" name="op" value="Buscar">Buscar</button>
+</div><input type="hidden" name="form_build_id" value="form-p2xGlBJ29TtjGQo7u88A_G2mB_BxnDjZqDfIS2w2Nl8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+  </div>
+        </div>
+          </header>
+
+    <!-- << MAIN CONTAINER >> -->
+    <div id="page-main-content">
+
+              <!-- :: Breadcrumbs :: -->
+        <div id="breadcrumb-wrapper" class="container">
+          <ol class="breadcrumb"><li><a href="/es">Inicio</a></li>
+<li><span title="" class="nolink" tabindex="0">Ponte al día</span></li>
+<li><a href="/es/actualidad/blog" title="" class="active">Blog</a></li>
+<li class="active">¿Sabías que existen distintos tipos de cifrado para proteger la privacidad de nuestra información en Internet?</li>
+</ol>        </div>
+      
+      
+      <div id="content-main">
+
+        <div class="main-container container">
+
+          <!-- << PAGE HEADER >> -->
+          <header role="banner" id="page-header">
+            
+                      </header>
+
+          <!-- << PAGE CONTENTS >> -->
+          <div class="row">
+
+            
+            <section class="col-md-9">
+
+              <!-- :: Page Title :: -->
+                                          
+              <!-- :: Messages :: -->
+              
+              <!-- :: Tabs :: -->
+              
+              <!-- :: Action Links :: -->
+              
+                              <!-- REGION: Main Content -->
+                <div class="row">  <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div  about="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" typeof="sioc:Item foaf:Document" class="ds-1col node node-blog view-mode-full clearfix">
+
+  
+  <div class="main-content"><div class="row row-no-gutters row-meta-title"><div class="content-meta col-sm-2 col-xs-12 hidden-xs"><div class="field-publicado col-xs-8 col-sm-12"><div class="field field-name-post-date field-type-ds field-label-above">
+      <div
+      class="field-label">Publicado el</div>
+    <div class="field-items">
+          <div
+        class="field-item even">10/07/2019</div>
+      </div>
+</div>
+</div><div class="field-cantidad-comentarios col-xs-4 col-sm-12"><div class="field field-name-comment-count field-type-ds field-label-inline clearfix">
+  <div class="field-items">
+                  <div
+          class="field-label">Comentarios          :&nbsp;</div>
+            <div
+        class="field-item even" property="sioc:num_replies" datatype="xsd:integer">6</div>
+      </div>
+</div>
+</div></div><div class="content-title col-sm-10 col-xs-12"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h1><a href="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="active">¿Sabías que existen distintos tipos de cifrado para proteger la privacidad de nuestra información en Internet?</a></h1></div></div></div></div></div><div class="content-social"><div class="service-links"><ul class="links list-inline"><li class="service-links-incibe-facebook first"><a href="http://www.facebook.com/sharer.php?u=https%3A//www.osi.es/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad&amp;t=%C2%BFSab%C3%ADas%20que%20existen%20distintos%20tipos%20de%20cifrado%20para%20proteger%20la%20privacidad%20de%20nuestra%20informaci%C3%B3n%20en%20Internet%3F" title="Share on Facebook" class="service-links-incibe-facebook" rel="nofollow" target="_blank"><img typeof="foaf:Image" class="img-responsive" src="https://www.osi.es/sites/all/modules/contrib/service_links/images/themes/original/facebook.png" alt="Facebook logo" /></a></li>
+<li class="service-links-incibe-linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A//www.osi.es/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad&amp;title=%C2%BFSab%C3%ADas%20que%20existen%20distintos%20tipos%20de%20cifrado%20para%20proteger%20la%20privacidad%20de%20nuestra%20informaci%C3%B3n%20en%20Internet%3F&amp;summary=%0D%0A%C2%BFQu%C3%A9%20es%20la%20criptograf%C3%ADa%3F%0D%0A%0D%0ALa%20criptograf%C3%ADa%20es%20una%20t%C3%A9cnica%20bastante%20antigua%20que%20busca%20cifrar%20un%20texto%20o%20una%20informaci%C3%B3n%2C%20para%20que%20solo%20el%20emisor%20y%20el%20receptor%20puedan%20descifrarlos.%20Dentro%20de%20la%20inform%C3%A1tica%2C%20la%20criptograf%C3%ADa%20se%20basa%20en%20complejos%20algoritmos%20matem%C3%A1ticos%20que%20se%20encargan%20de%20cifrar%20los%20mensajes.&amp;source=Oficina%20de%20Seguridad%20del%20Internauta" title="Publish this post to LinkedIn" class="service-links-incibe-linkedin" rel="nofollow" target="_blank"><img typeof="foaf:Image" class="img-responsive" src="https://www.osi.es/sites/all/modules/contrib/service_links/images/themes/original/linkedin.png" alt="LinkedIn logo" /></a></li>
+<li class="service-links-incibe-twitter"><a href="http://twitter.com/share?url=https%3A//www.osi.es/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad&amp;via=osiseguridad&amp;related=&amp;hashtags=&amp;text=%C2%BFSab%C3%ADas%20que%20existen%20distintos%20tipos%20de%20cifrado%20para%20proteger%20la%20privacidad%20de%20nuestra%20informaci%C3%B3n%20en%20Internet%3F" title="Share this on Twitter" class="service-links-incibe-twitter" rel="nofollow" target="_blank"><img typeof="foaf:Image" class="img-responsive" src="https://www.osi.es/sites/all/modules/contrib/service_links/images/themes/original/twitter.png" alt="Twitter logo" /></a></li>
+<li class="comment-add last active"><a href="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad#comment-form" title="Comparta sus pensamientos y sus opciones sobre este envío." class="active">Añadir nuevo comentario</a></li>
+</ul></div></div><div class="content-image"><div class="field field-name-field-blog-imagen field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" class="img-responsive" src="https://www.osi.es/sites/default/files/images/blog/c9-img-blog-dec-sabias-que.jpg" width="720" height="270" alt="Enlace al artículo &quot;¿Sabías que existen distintos tipos de cifrado para proteger la privacidad de nuestra información en Internet?&quot;" /></div></div></div></div><div class="content-text"><div class="field field-name-field-blog-entradilla field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">El cifrado de información cuando navegamos por Internet tiene una función importantísima para proteger nuestra actividad, la información que intercambiamos, los datos que publicamos, etc. Además, es un sistema muy utilizado por las aplicaciones que solemos utilizar, pero no siempre entendemos cómo funcionan. Por medio de este artículo aprenderemos los conceptos básicos, los tipos de cifrado y cómo funciona la encriptación de la información en Internet.</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="text-justify-xs">
+<h3>¿Qué es la criptografía?</h3>
+
+<p>La criptografía es una técnica bastante antigua que busca <strong>cifrar</strong> un texto o una información, para que solo el emisor y el receptor puedan <strong>descifrarlos</strong>. Dentro de la informática, la criptografía se basa en complejos algoritmos matemáticos que se encargan de cifrar los mensajes.</p>
+
+<p class="rtecenter"><img alt="Qué es la criptografía" class="responsive" src="/sites/default/files/images/concienciacion/c9-img-blog-criptografia.png" title="Explicación gráfica del cifrado de información" /></p>
+
+<p>Además, existen cuatro requisitos u objetivos básicos que la criptología debe ofrecer:</p>
+
+<p class="p-l-3">- <strong>Privacidad o confidencialidad</strong>: solo pueden acceder a la información aquellas personas que estén autorizadas a obtenerla.</p>
+
+<p class="p-l-3">- <strong>Integridad</strong>: el receptor del mensaje debe ser capaz de comprobar que este no ha sido modificado durante su camino.</p>
+
+<p class="p-l-3">- <strong>Autenticación</strong>: cuando se establece una comunicación segura entre dos interlocutores, cada uno debe ser capaz de verificar la identidad de la otra parte de manera irrefutable.</p>
+
+<p class="p-l-3">- <strong>No repudio</strong>: ninguno de los interlocutores debe ser capaz de negar con posterioridad que ha realizado cierta acción o que ha transmitido determinada información.</p>
+
+<h3>¿Qué tipos de cifrado existen?</h3>
+
+<p>Los dos tipos principales de cifrado son el cifrado simétrico y el cifrado asimétrico.</p>
+
+<p class="p-l-3">- <strong>Criptografía simétrica</strong>: utiliza la misma clave para cifrar y descifrar el mensaje, que tienen que conocer, previamente, tanto el emisor como el receptor.</p>
+
+<p class="rtecenter"><img alt="Cómo funciona el cifrado simétrico" class="responsive" src="/sites/default/files/images/concienciacion/c9-img-blog-simetrico.png" title="Explicación gráfica cifrado simétrico" /></p>
+
+<p class="p-l-3">- <strong>Criptografía asimétrica</strong>: se basa en el uso de dos claves.</p>
+
+<p class="p-l-5">o <strong>La pública</strong>, que se podrá difundir, sin ningún problema, a todas las personas que necesiten mandarte alguna información cifrada.</p>
+
+<p class="p-l-5">o <strong>La privada</strong>, que no debe ser revelada nunca.</p>
+
+<p class="rtecenter"><img alt="Cómo funciona el cifrado asimétrico" class="responsive" src="/sites/default/files/images/concienciacion/c9-img-blog-asimetrico.png" title="Explicación gráfica cifrado asimétrico" /></p>
+
+<p>Veámoslo con un ejemplo, si queremos que tres compañeros/as nos manden un archivo cifrado, debemos de <strong>mandarles nuestra clave pública</strong> (que está vinculada a la privada) y nos podrán mandar, de forma confidencial, ese archivo que <strong>solo nosotros podremos descifrar con la clave privada</strong>.</p>
+
+<p>Aunque pueda parecer que la clave privada pudiese ser descubierta gracias a la pública, no es así. Se utilizan complejos algoritmos para generar las claves, que son muy resistentes a los <a href="https://www.osi.es/es/campanas/contrasenas-seguras/ataques-contrasenas" title="Infografía | OSI - Ataque a las contraseñas">ataques de los ciberdelincuentes</a>.</p>
+
+<p>Otro propósito, muy utilizado, es el de <strong>poder firmar documentos</strong>. De esta forma, se certifica al emisor, firmando con la clave privada, y verificando la identificad del receptor con la pública.</p>
+
+<h3>¿Cuáles son las ventajas y desventajas de un método u otro?</h3>
+
+<p>Bien, ya conocemos como funcionan los dos tipos de cifrado, pero <strong>¿hay alguno mejor que otro? ¿Cuáles son las ventajas y desventajas de cada uno?</strong> Para contestar a estas preguntas podemos verlo desde tres perspectivas:</p>
+
+<p class="p-l-3">- <strong>Velocidad</strong>:</p>
+
+<p class="p-l-5">o La principal ventaja del cifrado simétrico es que es mucho más rápido y ágil. De modo que, si quieres cifrar una gran cantidad de información, ahorrarás tiempo con este tipo.</p>
+
+<p class="p-l-5">o Por el contrario, el cifrado asimétrico es mucho más lento. Si el rendimiento es un factor clave a tener en cuenta, no es la mejor opción.</p>
+
+<p class="p-l-3">- <strong>Seguridad</strong>:</p>
+
+<p class="p-l-5">o El cifrado simétrico no es tan seguro, ya que el hecho de comunicar la clave supone una gran vulnerabilidad. Es muy importante buscar medios seguros para comunicarla.</p>
+
+<p class="p-l-5">o La ventaja del cifrado asimétrico es el hecho de que puede comunicar, de forma segura, claves públicas a terceros. Este tipo, tiene la libertad de entregar la clave pública, mientras la clave privada permanece con el usuario.</p>
+
+<p class="p-l-3">- <strong>Número de claves</strong>:</p>
+
+<p class="p-l-3">o La administración de claves también es un beneficio al usar el cifrado asimétrico. Solo necesitas un par de claves, por usuario, para cada uno, para poder cifrar mensajes para todos los demás usuarios.</p>
+
+<p class="p-l-3">o Como vimos con el cifrado simétrico, a medida que aumenta el número de usuarios, aumenta el número de claves.</p>
+
+<h3>¿Cómo se emplea el cifrado para proteger nuestra información en Internet?</h3>
+
+<p><img alt="Imagen red segura de candados" class="responsive" src="/sites/default/files/images/concienciacion/c9-img-blog-dec-cifrado.jpg" style="float: right; margin: 10px;" /></p>
+
+<p>Cuando utilizamos nuestros equipos o navegamos por Internet, el cifrado de información está muy presente con el objetivo de <a href="https://www.osi.es/es/actualidad/blog/2019/04/10/no-pierdas-nada-protege-la-informacion-de-tu-dispositivo" title="Blog | OSI - ¡No pierdas nada! Protege la información de tu dispositivo">proteger nuestra privacidad e información</a>, por ejemplo:</p>
+
+<p class="p-l-3">- <strong>Al entrar en webs cuya URL comienza por</strong> “<a href="https://www.osi.es/es/actualidad/blog/2014/02/28/que-pasa-si-una-pagina-web-no-utiliza-https" title="Blog | OSI - ¿Qué pasa si una página web no utiliza https?">HTTPS</a>”: en la que una clave ‘pública’ y una clave ‘privada’ se emplean para encriptar los datos. Cuando un navegador inicia una sesión “HTTPS” con el servidor web, el mismo envía la clave pública al navegador y se lleva a cabo un “SSL Handshake”, también conocido como "saludo”, entre el navegador y el servidor.</p>
+
+<p class="p-l-3">Una vez que la conexión segura se ha iniciado y aceptado, el navegador reconoce el link y lo muestra como seguro, ya sea mediante una barra verde o un candado dependiendo del tipo de certificado que se use.</p>
+
+<p class="rtecenter"><img alt="Diferencia entre https y http" class="responsive" src="/sites/default/files/images/concienciacion/c9-img-blog-canal-https-http.jpg" title="Envío información" /></p>
+
+<p class="p-l-3">- Existen muchas <a href="https://www.osi.es/es/actualidad/blog/2016/11/17/protege-tu-informacion-utiliza-herramientas-de-cifrado" title="Blog | OSI - Protege tu información, utiliza herramientas de cifrado">herramientas y softwares</a> <strong>que nos permiten proteger los datos de nuestros dispositivos</strong>. Un ejemplo es la herramienta <a href="https://www.osi.es/es/herramientas-gratuitas/cifrado-de-windows-bitlocker" title="Herramientas | OSI - Bitlocker de Windows">BitLocker de Windows</a> (preinstalado en Windows para las ediciones Education, Pro y Enterprise), que utiliza algoritmos de encriptación para cifrar el contenido de un disco, evitando el acceso no autorizado.</p>
+
+<p>¿Conocías los tipos de cifrado? ¿Sabías para que se utilizaban y cómo nos protegen? Comparte con el resto de los usuarios tu opinión y experiencias y mantente al día con las publicaciones de la OSI en materia de ciberseguridad para poder disfrutar de las ventajas de la tecnología.</p>
+</div>
+
+<div class="text-center-xs text-2rem"><span>Artículo enmarcado dentro de la campaña</span><br /><a href="https://www.osi.es/es/campanas/copias-cifrado-informacion" title="Campaña | OSI - ¿Es seguro dónde guardas y cómo envías la información?">¿Es seguro dónde guardas y cómo envías la información?</a></div>
+</div></div></div></div></div><div class="content-comment"><div id="comments" class="comment-wrapper">
+          <h2 class="title comment-title">Comentarios</h2>
+      
+  <a id="comment-45061"></a>
+<div class="comment comment-by-anonymous clearfix" about="/es/comment/45061#comment-45061" typeof="sioc:Post sioct:Comment">
+  <div class="inner">
+    <div class="submitted">
+              <div class="user-picture">
+    <img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/icono_perfil_100_100.png" alt="Imagen de David Vargas" title="Imagen de David Vargas" />  </div>
+      Enviado por <strong><span class="username">David Vargas</span></strong> el Mié, 09/12/2020 - 22:39    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Muy buenos artículos y con los enlaces a herramientas no comerciales que garantizan la no divulgación a terceros.</div></div></div>          </div>
+
+    <ul class="links list-inline"><li class="comment-reply first last"><a href="/es/comment/reply/6715/45061">responder</a></li>
+</ul>  </div>
+</div>
+<a id="comment-31816"></a>
+<div class="comment comment-by-anonymous clearfix" about="/es/comment/31816#comment-31816" typeof="sioc:Post sioct:Comment">
+  <div class="inner">
+    <div class="submitted">
+              <div class="user-picture">
+    <img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/icono_perfil_100_100.png" alt="Imagen de Susana Beatriz" title="Imagen de Susana Beatriz" />  </div>
+      Enviado por <strong><span class="username">Susana Beatriz</span></strong> el Vie, 19/07/2019 - 20:05    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Lo siento pero no me he enterado de cómo mandar un documento cifrado a otra persona. ¿Qué tendría que poner y en dónde? Es que no entiendo casi nada de ordenadores, aunque soy una fiel seguidora pero no haga ningún comentario. Muchas gracias.</div></div></div>          </div>
+
+    <ul class="links list-inline"><li class="comment-reply first last"><a href="/es/comment/reply/6715/31816">responder</a></li>
+</ul>  </div>
+</div>
+
+<div class="indented"><a id="comment-31852"></a>
+<div class="comment comment-by-anonymous clearfix" about="/es/comment/31852#comment-31852" typeof="sioc:Post sioct:Comment">
+  <div class="inner">
+    <div class="submitted">
+              <div class="user-picture">
+    <img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/icono_perfil_100_100.png" alt="Imagen de Julio Uriarte" title="Imagen de Julio Uriarte" />  </div>
+      Enviado por <strong><span class="username">Julio Uriarte</span></strong> el Mar, 23/07/2019 - 22:54    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/es/comment/31816#comment-31816" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Hola Susana, puedes descargar la herramienta gratuita que recomiendan se llama VeraCrypt, sigue los pasos para cifrar y ese archivo lo puedes enviar, y así compartir ese archivo con la contraseña solo a quien tu quieras que vea el archivo y listo. haz la prueba y cualquier cosa a tus ordenes. Saludos!</div></div></div>          </div>
+
+    <ul class="links list-inline"><li class="comment-reply first last"><a href="/es/comment/reply/6715/31852">responder</a></li>
+</ul>  </div>
+</div>
+
+<div class="indented"><a id="comment-31892"></a>
+<div class="comment comment-by-anonymous clearfix" about="/es/comment/31892#comment-31892" typeof="sioc:Post sioct:Comment">
+  <div class="inner">
+    <div class="submitted">
+              <div class="user-picture">
+    <img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/icono_perfil_100_100.png" alt="Imagen de El Equipo de la OSI" title="Imagen de El Equipo de la OSI" />  </div>
+      Enviado por <strong><span class="username">El Equipo de la OSI</span></strong> el Vie, 26/07/2019 - 10:36    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/es/comment/31852#comment-31852" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Hola Julio, gracias por tu recomendación. Susana, dispones de más herramientas gratuitas de cifrado en https://www.osi.es/es/herramientas-gratuitas?herramienta_selec%5B0%5D=118. Además, en el artículo &quot;Aprende a cifrar tus archivos antes de subirlos a la nube&quot; te ofrecemos la herramienta Cryptomator y te explicamos su funcionamiento (https://www.osi.es/es/actualidad/blog/2019/07/24/aprende-cifrar-tus-archivos-antes-de-subirlos-la-nube). Un saludo</div></div></div>          </div>
+
+    <ul class="links list-inline"><li class="comment-reply first last"><a href="/es/comment/reply/6715/31892">responder</a></li>
+</ul>  </div>
+</div>
+</div><a id="comment-34623"></a>
+<div class="comment comment-by-anonymous clearfix" about="/es/comment/34623#comment-34623" typeof="sioc:Post sioct:Comment">
+  <div class="inner">
+    <div class="submitted">
+              <div class="user-picture">
+    <img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/icono_perfil_100_100.png" alt="Imagen de Eden Israel" title="Imagen de Eden Israel" />  </div>
+      Enviado por <strong><span class="username">Eden Israel</span></strong> el Lun, 25/11/2019 - 06:37    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/es/comment/31816#comment-31816" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Para enviar archivos o informacion encriptada se necesita un progrma y es muy facil de hacerlo, por ejemplo WinRar este programa te permite encriptar y poniendo la  contraseña que desees y una vez enviado a la otra persona solo lo podra abrir con la respectiva contraseña que hayas puesto,</div></div></div>          </div>
+
+    <ul class="links list-inline"><li class="comment-reply first last"><a href="/es/comment/reply/6715/34623">responder</a></li>
+</ul>  </div>
+</div>
+</div><a id="comment-31746"></a>
+<div class="comment comment-by-anonymous clearfix" about="/es/comment/31746#comment-31746" typeof="sioc:Post sioct:Comment">
+  <div class="inner">
+    <div class="submitted">
+              <div class="user-picture">
+    <img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/icono_perfil_100_100.png" alt="Imagen de Luis Fdez." title="Imagen de Luis Fdez." />  </div>
+      Enviado por <strong><span class="username">Luis Fdez.</span></strong> el Vie, 12/07/2019 - 12:33    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/es/actualidad/blog/2019/07/10/sabias-que-existen-distintos-tipos-de-cifrado-para-proteger-la-privacidad" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Pretty Good Privacy (PGP).
+Para Windows: https://www.gpg4win.org/
+Para Mac: https://gpgtools.org/
+Para Linux: https://www.gnupg.org/
+Extensiones para Chrome y FireFox: https://www.mailvelope.com/en</div></div></div>          </div>
+
+    <ul class="links list-inline"><li class="comment-reply first last"><a href="/es/comment/reply/6715/31746">responder</a></li>
+</ul>  </div>
+</div>
+
+      <h2 class="title comment-form">Añadir nuevo comentario</h2>
+    <form class="comment-form" action="/es/comment/reply/6715" method="post" id="comment-form" accept-charset="UTF-8"><div><div class="form-item form-item-name form-type-textfield form-group"> <label class="control-label" for="edit-name">Su nombre</label>
+<input class="form-control form-text" type="text" id="edit-name" name="name" value="" size="30" maxlength="60" /></div><div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper form-group" id="edit-comment-body"><div id="comment-body-add-more-wrapper"><div class="form-item form-item-comment-body-und-0-value form-type-textarea form-group"> <label class="control-label" for="edit-comment-body-und-0-value">Comentario <span class="form-required" title="Este campo es obligatorio.">*</span></label>
+<div class="form-textarea-wrapper resizable"><textarea class="text-full form-control form-textarea required" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea></div></div></div></div><input type="hidden" name="form_build_id" value="form-4NDz80FR4w34QABtBP6yxRO7djBBa55D_ztplscsK_U" />
+<input type="hidden" name="form_id" value="comment_node_blog_form" />
+<fieldset  class="captcha panel panel-default form-wrapper" id="bootstrap-panel">
+          <legend class="panel-heading">
+      <span class="panel-title fieldset-legend">CAPTCHA</span>
+    </legend>
+        <div class="panel-body" id="bootstrap-panel-body">
+    <div class="help-block">Esta pregunta se hace para comprobar que es usted es o no una persona real e impedir el envío automatizado de spam.</div>    <input type="hidden" name="captcha_sid" value="17810187" />
+<input type="hidden" name="captcha_token" value="5a8ca56ea5bb53caf9f16fb2e685ce05" />
+<input type="hidden" name="captcha_response" value="Google no captcha" />
+<div class="g-recaptcha" data-sitekey="6LeSEykTAAAAAIQpTOo6wrkcPJ7MdZtCN8AAQKq5" data-theme="light" data-type="image"></div><input type="hidden" name="captcha_cacheable" value="1" />
+  </div>
+</fieldset>
+<div class="form-actions form-wrapper form-group" id="edit-actions"><button type="submit" id="edit-submit" name="op" value="Guardar" class="btn btn-default form-submit">Guardar</button>
+</div></div></form>  </div>
+</div></div>
+
+
+</section>
+  </div>
+</div>
+              
+            </section>
+
+                          <!-- REGION: Sidebar Right -->
+              <aside class="a_right col-md-3" role="complementary">
+                  <div class="region region-sidebar-second">
+    <section id="block-views-blog-block-4" class="block block-views block-other-blogs block-item-prev clearfix">
+
+        <h2 class="block-title">Últimas entradas del blog</h2>
+    
+  <div class="view view-blog view-id-blog view-display-id-block_4 view-dom-id-ef911c47cc8e38cde164b0d62097fffa">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/05/31/cuida-tu-privacidad-lanzamos-una-campana-de-concienciacion-para-aprender">¡Cuida tu privacidad! Lanzamos una campaña de concienciación para aprender a utilizar los controles de privacidad y seguridad de los servicios de Google</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/05/17/suscripciones-premium-por-sms-no-gracias">¿Suscripciones premium por SMS? No, gracias</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/05/04/quieres-organizar-una-sesion-gratuita-sobre-ciberseguridad-relanzamos-el">¿Quieres organizar una sesión gratuita sobre ciberseguridad? Relanzamos el Programa Cibercooperantes</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/04/21/egosurfing-que-informacion-hay-sobre-mi-en-internet">Egosurfing: ¿Qué información hay sobre mí en Internet?</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/03/24/como-mejorar-el-rendimiento-de-los-dispositivos-con-herramientas-de">Cómo mejorar el rendimiento de los dispositivos con herramientas de mantenimiento y limpieza</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/03/17/proxy-navega-y-utiliza-tu-equipo-de-forma-mas-segura">Proxy: navega y utiliza tu equipo de forma más segura</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/03/10/que-datos-no-debes-compartir-nunca-en-internet">Qué datos no debes compartir nunca en Internet</a></div>  </div></li>
+          <li class="row-item row-blog">  
+  <div class="field-titulo">        <div class="field-value"><a href="/es/actualidad/blog/2021/03/08/empoderate-manten-seguros-tus-dispositivos-y-protegete-en-internet">Empodérate: mantén seguros tus dispositivos y protégete en Internet</a></div>  </div></li>
+      </ul>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/actualidad/blog" class="enlace-naranja">Listado completo &gt;&gt;</a>    </div>
+  
+  
+</div>
+</section>
+  </div>
+              </aside>
+            
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <!-- << FOOTER >> -->
+    <footer id="main-footer" class="footer">
+
+              <!-- REGION: Footer Top -->
+        <div id="footer-top">
+          <div class="container">
+            <div class="row">
+                <div class="region region-footer-top">
+    <section id="block-block-3" class="block block-block block-footer-logos clearfix">
+
+      
+  <h5><a href="https://www.incibe.es/sites/default/files/certificado_ens_incibe_31102019.pdf" target="_blank" title="Certificado de Conformidad con el Esquema Nacional de Seguridad (ENS) RD 3/2010"><img alt="Certificado de Conformidad con el Esquema Nacional de Seguridad (ENS) RD 3/2010" src="https://www.incibe.es/sites/default/files/contenidos/blocks/logos-sellos/certificado_ens_web_2017.png" style="width: 43px; height: 50px;" /></a><a href="https://www.incibe.es/sites/default/files/certificado_sgsi_11112019.pdf" target="_blank" title="AENOR, Seguridad Información, UNE-ISO/IEC 27001"> <img alt="AENOR, Seguridad Información, UNE-ISO/IEC 27001" src="https://www.incibe.es/sites/default/files/contenidos/blocks/logos-sellos/27001.png" style="width: 28px; height: 50px;" /></a><a href="https://www.incibe.es/sites/default/files/certificado_sgc_13122019.pdf" target="_blank" title="AENOR, Gestión de la Calidad, UNE-EN ISO 9001"> <img alt="AENOR, Gestión de la Calidad, UNE-EN ISO 9001" src="https://www.incibe.es/sites/default/files/contenidos/blocks/logos-sellos/9001.png" style="width: 28px; height: 50px;" /></a><a href="https://portal.mineco.gob.es/es-es/Paginas/default.aspx" title="Ministerio de Asuntos Económicos y Transformación Digital"><img alt="Logo Ministerio de Asuntos Económicos y Transformación Digital" src="/sites/default/files/colaboracion/logo/vice2sedia_web_sb_400.png" style="height: 64px;" /></a> <a href="//www.incibe.es/" title="Instituto Nacional de Ciberseguridad"> <img alt="Logo INCIBE" src="/sites/default/files/incibe_logo_af.png" style="width: 193px; height: 46px;" /></a> NIPO: 094-20-028-1</h5>
+
+</section>
+  </div>
+            </div>
+          </div>
+        </div>
+      
+              <!-- REGION: Footer Bottom -->
+        <div id="footer-bottom">
+          <div class="container">
+            <div class="row">
+                <div class="region region-footer-bottom">
+    <section id="block-menu-menu-menu-footer" class="block block-menu block-footer-menu col-sm-8 clearfix">
+
+        <h2 class="block-title">Navegación</h2>
+    
+  <ul class="menu nav"><li class="first expanded"><span title="" class="nolink" tabindex="0">OSI</span><ul class="menu nav"><li class="first leaf"><a href="/es/sitemap" title="">Mapa Web</a></li>
+<li class="leaf"><a href="/es/contacto" title="">Contacto</a></li>
+<li class="last leaf"><a href="https://www.osi.es/es/encuesta-de-valoracion" title="">Encuesta de valoración</a></li>
+</ul></li>
+<li class="last expanded"><span title="" class="nolink" tabindex="0">Legal</span><ul class="menu nav"><li class="first leaf"><a href="https://www.incibe.es/aviso-legal/" title="">Aviso Legal</a></li>
+<li class="leaf"><a href="https://www.incibe.es/politica-cookies" title="">Política de cookies</a></li>
+<li class="leaf"><a href="https://www.incibe.es/proteccion-datos-personales" title="">Política de Protección de Datos Personales</a></li>
+<li class="last leaf"><a href="https://www.incibe.es/declaracion-de-accesibilidad" title="">Declaración de accesibilidad</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="block-block-2" class="block block-block block-footer-social col-sm-4 clearfix">
+
+      
+  <h3>OSI en las redes sociales</h3>
+
+<h4 class="text">Síguenos comparte contenidos</h4>
+
+<p><a href="https://www.facebook.com/osiseguridad" rel="external" title="Nuestro Facebook"><img alt="Nuestro Facebook" src="/sites/default/files/Redes_sociales/logo_fb_25x25-v2.png" /></a> <a href="https://twitter.com/osiseguridad" rel="external" title="Nuestro Twitter"><img alt="Nuestro Twitter" src="/sites/default/files/Redes_sociales/log_twitter_25x25-v2.png" /></a> <a href="/actualidad/rss" title="Nuestro RSS"><img alt="Nuestro RSS" src="/sites/default/files/Redes_sociales/logo_rss_25x25.png" /></a> <a href="https://www.youtube.com/osiseguridad" rel="external" title="Nuestro Youtube"><img alt="Nuestro Youtube" src="/sites/default/files/Redes_sociales/logo_yt_25x25-v2.png" /></a></p>
+
+<p> </p>
+
+<p><img alt="Oficina de Seguridad Informática" src="/sites/default/files/logo-footer.png" /></p>
+
+</section>
+  </div>
+            </div>
+          </div>
+        </div>
+      
+    </footer>
+
+  </div>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a data-dismiss="modal" class="custom_close"></a>
+        <h2 class="modal-title" id="myModalLabel">&nbsp;</h2>
+      </div>
+
+      <div class="modal-body">
+        <iframe name="iframe" id="myModalIframe" title="Ventana modal"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav id="mmenu_left" class="mmenu-nav clearfix">
+  <ul>
+                                    <ul class="mmenu-mm-list-level-1"><li class="mmenu-mm-list-mlid-219 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Ponte al día</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-476 mmenu-mm-list-path-actualidad-avisos"><a href="/es/actualidad/avisos" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Avisos de seguridad</span></a></li><li class="mmenu-mm-list-mlid-477 mmenu-mm-list-path-actualidad-blog"><a href="/es/actualidad/blog" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Blog</span></a></li><li class="mmenu-mm-list-mlid-478 mmenu-mm-list-path-actualidad-historias-reales"><a href="/es/actualidad/historias-reales" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Historias Reales</span></a></li></ul></li><li class="mmenu-mm-list-mlid-2196 mmenu-mm-list-path-node-6679"><a href="/es/campanas" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Campañas</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-2395 mmenu-mm-list-path-node-7230"><a href="/es/cuidatuprivacidad" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Cuida tu privacidad</span></a></li><li class="mmenu-mm-list-mlid-2287 mmenu-mm-list-path-https:--www.osi.es-es-quedate-en-casa-pero-ciberseguro"><a href="https://www.osi.es/es/quedate-en-casa-pero-ciberseguro" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Quédate en casa pero ciberseguro</span></a></li><li class="mmenu-mm-list-mlid-2197 mmenu-mm-list-path-https:--www.osi.es-es-campanas-los-ciberdelincuentes-quienes-son"><a href="https://www.osi.es/es/campanas/los-ciberdelincuentes-quienes-son" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Los ciberdelincuentes, ¿quiénes son?</span></a></li><li class="mmenu-mm-list-mlid-2201 mmenu-mm-list-path-https:--www.osi.es-es-campanas-iot-los-riesgos-de-un-mundo-hiperconectado"><a href="https://www.osi.es/es/campanas/iot-los-riesgos-de-un-mundo-hiperconectado" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">IoT, los riesgos de un mundo hiperconectado</span></a></li><li class="mmenu-mm-list-mlid-2205 mmenu-mm-list-path-node-6593"><a href="/es/campanas/contrasenas-seguras" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¡Contraseñas seguras!</span></a></li><li class="mmenu-mm-list-mlid-2214 mmenu-mm-list-path-node-6611"><a href="/es/campanas/redes-sociales" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Redes sociales, ¿cuánto saben de ti?</span></a></li><li class="mmenu-mm-list-mlid-2206 mmenu-mm-list-path-node-6635"><a href="/es/campanas/dispositivos-moviles" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Dispositivos móviles</span></a></li><li class="mmenu-mm-list-mlid-2226 mmenu-mm-list-path-node-6652"><a href="/es/campanas/dispositivos-personales-trabajo" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Dispositivos personales y trabajo</span></a></li><li class="mmenu-mm-list-mlid-2230 mmenu-mm-list-path-node-6676"><a href="/es/campanas/compras-seguras-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Compras seguras online</span></a></li><li class="mmenu-mm-list-mlid-2233 mmenu-mm-list-path-https:--www.osi.es-es-campanas-alquileres-vacacionales"><a href="https://www.osi.es/es/campanas/alquileres-vacacionales" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Alquileres vacacionales</span></a></li><li class="mmenu-mm-list-mlid-2234 mmenu-mm-list-path-node-6716"><a href="/es/campanas/copias-cifrado-informacion" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¿Es seguro dónde guardas y cómo...</span></a></li><li class="mmenu-mm-list-mlid-2244 mmenu-mm-list-path-node-6733"><a href="/es/campanas/criptomonedas" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Las 2 caras de las criptomonedas</span></a></li><li class="mmenu-mm-list-mlid-2248 mmenu-mm-list-path-node-6763"><a href="/es/campanas/puesta-punto" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Puesta a punto para el nuevo curso</span></a></li><li class="mmenu-mm-list-mlid-2250 mmenu-mm-list-path-node-6799"><a href="/es/campanas/segunda-vida-dispositivos" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">La segunda vida de nuestros dispositivos</span></a></li><li class="mmenu-mm-list-mlid-2252 mmenu-mm-list-path-node-6825"><a href="/es/campanas/navegadores-seguros" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Navegadores web</span></a></li><li class="mmenu-mm-list-mlid-2253 mmenu-mm-list-path-https:--www.osi.es-es-campanas-ingenieria-social"><a href="https://www.osi.es/es/campanas/ingenieria-social" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title"> Ingeniería social: que no te engañen</span></a></li><li class="mmenu-mm-list-mlid-2254 mmenu-mm-list-path-https:--www.osi.es-es-cuanto-valen-mis-datos-en-la-red"><a href="https://www.osi.es/es/cuanto-valen-mis-datos-en-la-red" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¿Cuánto valen mis datos en la Red?</span></a></li><li class="mmenu-mm-list-mlid-2350 mmenu-mm-list-path-https:--www.osi.es-es-campanas-bulos-fake-news-fraudes"><a href="https://www.osi.es/es/campanas/bulos-fake-news-fraudes" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Identifica bulos y fraudes</span></a></li></ul></li><li class="mmenu-mm-list-mlid-483 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Protégete</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-484 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Configura tus dispositivos</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-1229 mmenu-mm-list-path-node-5508"><a href="/es/contra-virus" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Infórmate sobre los virus</span></a></li><li class="mmenu-mm-list-mlid-1230 mmenu-mm-list-path-node-5509"><a href="/es/actualizaciones-de-seguridad" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Conoce la importancia de las actualizaciones</span></a></li><li class="mmenu-mm-list-mlid-1231 mmenu-mm-list-path-node-5510"><a href="/es/cuentas-de-usuario" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Haz uso de cuentas de usuario</span></a></li><li class="mmenu-mm-list-mlid-1232 mmenu-mm-list-path-node-5511"><a href="/es/smartphone-y-tablet" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Recomendaciones para smartphones y tablets</span></a></li></ul></li><li class="mmenu-mm-list-mlid-498 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Establece conexiones seguras</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-1240 mmenu-mm-list-path-node-5465"><a href="/es/protege-tu-wifi" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Protege tu red wifi</span></a></li><li class="mmenu-mm-list-mlid-1241 mmenu-mm-list-path-node-5442"><a href="/es/wifi-publica" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Sé cauto con wifis públicas</span></a></li></ul></li><li class="mmenu-mm-list-mlid-489 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Salvaguarda la información</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-1233 mmenu-mm-list-path-node-5514"><a href="/es/tu-informacion-personal" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Cuida tu privacidad</span></a></li><li class="mmenu-mm-list-mlid-1234 mmenu-mm-list-path-node-5513"><a href="/es/copias-de-seguridad-cifrado" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Realiza copias de seguridad y cifra tus datos</span></a></li><li class="mmenu-mm-list-mlid-1235 mmenu-mm-list-path-node-5520"><a href="/es/contrasenas" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Gestiona tus contraseñas</span></a></li></ul></li><li class="mmenu-mm-list-mlid-501 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Sé precavido con tu actividad online</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-1247 mmenu-mm-list-path-node-5441"><a href="/es/navegadores" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Navegadores web</span></a></li><li class="mmenu-mm-list-mlid-1239 mmenu-mm-list-path-node-5504"><a href="/es/pagos-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Compras online</span></a></li><li class="mmenu-mm-list-mlid-1248 mmenu-mm-list-path-node-5444"><a href="/es/servicios-compraventa-y-subastas-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Servicios compraventa y subastas</span></a></li><li class="mmenu-mm-list-mlid-1244 mmenu-mm-list-path-node-5506"><a href="/es/redes-sociales" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Redes sociales</span></a></li><li class="mmenu-mm-list-mlid-1243 mmenu-mm-list-path-node-5446"><a href="/es/mensajeria-instantanea" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Mensajería instantánea</span></a></li><li class="mmenu-mm-list-mlid-1242 mmenu-mm-list-path-node-5505"><a href="/es/correo-electronico" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Correo electrónico</span></a></li><li class="mmenu-mm-list-mlid-1246 mmenu-mm-list-path-node-5445"><a href="/es/juegos-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Juegos online</span></a></li><li class="mmenu-mm-list-mlid-1236 mmenu-mm-list-path-node-5501"><a href="/es/tu-informacion-en-la-nube" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Servicios en la nube</span></a></li><li class="mmenu-mm-list-mlid-510 mmenu-mm-list-path-https:--www.is4k.es"><a href="https://www.is4k.es/" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Protección de menores</span></a></li><li class="mmenu-mm-list-mlid-1245 mmenu-mm-list-path-node-5443"><a href="/es/webs-de-descarga" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Webs descarga y compartición</span></a></li><li class="mmenu-mm-list-mlid-1249 mmenu-mm-list-path-node-5512"><a href="/es/casinos-y-apuestas" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Servicios de apuestas</span></a></li></ul></li><li class="mmenu-mm-list-mlid-494 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Conoce los fraudes más comunes</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-1237 mmenu-mm-list-path-node-5502"><a href="/es/banca-electronica" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Phishing</span></a></li><li class="mmenu-mm-list-mlid-2138 mmenu-mm-list-path-node-6353"><a href="/es/tiendas-online-fraudulentas" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Tiendas online fraudulentas</span></a></li><li class="mmenu-mm-list-mlid-2139 mmenu-mm-list-path-node-6354"><a href="/es/estafas-alquileres" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Estafas en alquileres de viviendas</span></a></li><li class="mmenu-mm-list-mlid-2140 mmenu-mm-list-path-node-6355"><a href="/es/falsas-ofertas-empleo" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Falsas ofertas de empleo</span></a></li><li class="mmenu-mm-list-mlid-2179 mmenu-mm-list-path-node-5503"><a href="/es/fraude-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Fraude online</span></a></li></ul></li></ul></li><li class="mmenu-mm-list-mlid-1256 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Recursos</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-2380 mmenu-mm-list-path-https:--www.osi.es-es-talleres-ciberseguridad"><a href="https://www.osi.es/es/talleres-ciberseguridad" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Talleres</span></a></li><li class="mmenu-mm-list-mlid-2379 mmenu-mm-list-path-https:--www.osi.es-es-guias-ciberseguridad"><a href="https://www.osi.es/es/guias-ciberseguridad" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guías</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-2375 mmenu-mm-list-path-https:--www.osi.es-es-guia-configuracion-router"><a href="https://www.osi.es/es/guia-configuracion-router" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guía para configurar el router wifi</span></a></li><li class="mmenu-mm-list-mlid-2368 mmenu-mm-list-path-https:--www.osi.es-es-guia-ciberataques"><a href="https://www.osi.es/es/guia-ciberataques" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guía de ciberataques</span></a></li><li class="mmenu-mm-list-mlid-2322 mmenu-mm-list-path-node-6982"><a href="/es/guia-para-configurar-dispositivos-moviles" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guía para configurar dispositivos móviles</span></a></li><li class="mmenu-mm-list-mlid-2251 mmenu-mm-list-path-node-6813"><a href="/es/guia-fraudes-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guía para aprender a identificar fraudes online</span></a></li><li class="mmenu-mm-list-mlid-1729 mmenu-mm-list-path-node-5994"><a href="/es/guia-de-privacidad-y-seguridad-en-internet" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guía de privacidad y seguridad en Internet</span></a></li><li class="mmenu-mm-list-mlid-2141 mmenu-mm-list-path-node-6358"><a href="/es/actualidad/blog/2017/12/19/te-interesa-estrenamos-guia-sobre-compra-segura-en-internet" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Guía de compra segura en Internet</span></a></li></ul></li><li class="mmenu-mm-list-mlid-1252 mmenu-mm-list-path-node-5507"><a href="/es/herramientas" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Herramientas gratuitas</span></a></li><li class="mmenu-mm-list-mlid-1251 mmenu-mm-list-path-node-5535"><a href="/es/servicio-antibotnet" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Servicio AntiBotnet</span></a></li><li class="mmenu-mm-list-mlid-1250 mmenu-mm-list-path-node-5526"><a href="/es/conan-mobile" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">CONAN mobile</span></a></li><li class="mmenu-mm-list-mlid-479 mmenu-mm-list-path-cuanto-sabes"><a href="/es/cuanto-sabes" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Tests de ciberseguridad</span></a><ul class="mmenu-mm-list-level-3"><li class="mmenu-mm-list-mlid-480 mmenu-mm-list-path-node-3704"><a href="/es/test-evaluacion/conocimientos-generales" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Conocimientos generales sobre ciberseguridad</span></a></li><li class="mmenu-mm-list-mlid-481 mmenu-mm-list-path-node-3725"><a href="/es/test-evaluacion/mitos-sobre-seguridad-en-internet-verdaderos-o-falsos" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¿Verdadero o falso?</span></a></li><li class="mmenu-mm-list-mlid-482 mmenu-mm-list-path-node-3758"><a href="/es/test-evaluacion/que-sabes-sobre-las-redes-wifi" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Wifi examínate</span></a></li><li class="mmenu-mm-list-mlid-2231 mmenu-mm-list-path-node-6682"><a href="/es/test-evaluacion/cuanto-sabes-sobre-compras-seguras-online" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¿Cuánto sabes sobre compras seguras online?</span></a></li><li class="mmenu-mm-list-mlid-2249 mmenu-mm-list-path-node-6780"><a href="/es/test-evaluacion/refresca-tus-conocimientos-en-ciberseguridad" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¡Refresca tus conocimientos en ciberseguridad! </span></a></li></ul></li></ul></li><li class="mmenu-mm-list-mlid-2135 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Juegos educativos</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-2354 mmenu-mm-list-path-https:--www.osi.es-es-juegos-mesa"><a href="https://www.osi.es/es/juegos-mesa" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Juegos de mesa</span></a></li><li class="mmenu-mm-list-mlid-2136 mmenu-mm-list-path-https:--www.is4k.es-de-utilidad-cyberscouts"><a href="https://www.is4k.es/de-utilidad/cyberscouts" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Cyberscouts</span></a></li><li class="mmenu-mm-list-mlid-2137 mmenu-mm-list-path-https:--www.osi.es-es-hackers"><a href="https://www.osi.es/es/hackers" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Hackers vs Cybercrook</span></a></li></ul></li><li class="mmenu-mm-list-mlid-2384 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Iniciativas</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-2385 mmenu-mm-list-path-https:--www.osi.es-es-cibercooperantes"><a href="https://www.osi.es/es/cibercooperantes" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Cibercooperantes</span></a></li><li class="mmenu-mm-list-mlid-2225 mmenu-mm-list-path-node-6633"><a href="/es/stand" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Stand Tu Espacio de Ciberseguridad</span></a></li><li class="mmenu-mm-list-mlid-1485 mmenu-mm-list-path-https:--www.is4k.es?origen=menu_osi"><a href="https://www.is4k.es?origen=menu_osi" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Internet Segura for Kids</span></a></li></ul></li><li class="mmenu-mm-list-mlid-516 mmenu-mm-list-path-nolink"><a href="javascript:void(0);" class="mmenu-mm-list mmenu-mm-subopen"><i class="icon-plus"></i><span class="mmenu-block-title">Ayuda</span></a><ul class="mmenu-mm-list-level-2"><li class="mmenu-mm-list-mlid-1255 mmenu-mm-list-path-https:--www.incibe.es-linea-de-ayuda-en-ciberseguridad"><a href="https://www.incibe.es/linea-de-ayuda-en-ciberseguridad" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Ayuda en ciberseguridad</span></a></li><li class="mmenu-mm-list-mlid-1253 mmenu-mm-list-path-node-5453"><a href="/es/desinfecta-tu-ordenador" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Desinfección de dispositivos</span></a></li><li class="mmenu-mm-list-mlid-1254 mmenu-mm-list-path-node-5529"><a href="/es/reporte-de-fraude" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Reporte de fraude</span></a></li></ul></li></ul>                                                  <ul class="mmenu-mm-list-level-1"><li class="mmenu-mm-list-mlid-1228 mmenu-mm-list-path-node-5448"><a href="/es/quienes-somos" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">¿Quiénes somos?</span></a></li><li class="mmenu-mm-list-mlid-1688 mmenu-mm-list-path-node-5987"><a href="/es/encuesta-de-valoracion" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Encuesta de valoración</span></a></li><li class="mmenu-mm-list-mlid-524 mmenu-mm-list-path-node-4208"><a href="/es/contacto" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Contacto</span></a></li><li class="mmenu-mm-list-mlid-525 mmenu-mm-list-path-node-6957"><a href="/es/newsletter" class="mmenu-mm-list "><i class="icon-list2"></i><span class="mmenu-block-title">Boletines</span></a></li></ul>                    </ul>
+</nav>
+<script src="https://www.osi.es/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+<script type="text/javascript"> 
+/*<![CDATA[*/ 
+(function() { 
+ var sz = document.createElement('script');
+ sz.type = 'text/javascript';
+ sz.async = true;
+ sz.src = '//siteimproveanalytics.com/js/siteanalyze_6157310.js';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(sz, s);
+ })();
+ /*]]>*/ 
+ </script>
+  </body>
+</html>
